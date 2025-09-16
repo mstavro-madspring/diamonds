@@ -6,10 +6,9 @@ date: "`r Sys.time()`"
 
 # Diamonds Deployment Example
 ```{r, include=FALSE}
-pak::pak("tidyverse")
+pak::pak("ggplot2")
 
 library(ggplot2)
-library(dplyr)
 ```
 
 ### A debatably useful visualization, small change
