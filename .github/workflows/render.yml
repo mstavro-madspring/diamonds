@@ -3,6 +3,8 @@ name: Deploy Quarto project to GitHub Pages
 on:
   push:
     branches: ["main"]
+  # Allow for manual trigger
+  workflow_dispatch:
 
 # Grant GITHUB_TOKEN the necessary permissions
 permissions:
