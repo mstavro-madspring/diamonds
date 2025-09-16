@@ -1,0 +1,18 @@
+---
+title: "Diamonds Viz"
+format: html
+date: "`r Sys.time()`"
+---
+
+# Diamonds Deployment Example
+```{r, include=FALSE}
+pak::pak("tidyverse")
+
+library(ggplot2)
+library(dplyr)
+```
+
+### A debatably useful visualization
+```{r}
+ggplot(diamonds, aes(x = carat, y = depth, color = cut)) + geom_point() + scale_fill_viridis_d() + theme_minimal()
+```
