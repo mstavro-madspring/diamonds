@@ -1,3 +1,9 @@
+name: Render Quarto Document
+on:
+  push:
+    branches:
+      - main # or whatever your default branch is
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
