@@ -1,0 +1,8 @@
+Package: my-project
+Title: My Quarto Project
+Version: 0.0.1
+Description: A Quarto project to visualize diamonds data.
+License: MIT
+Imports:
+  ggplot2,
+  dplyr
